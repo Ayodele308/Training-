@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pinewood Bank</h1>
+      <ul>
+        <li><a href="/Landing page index.html">Home</a></li>
+        <li><a href="/Register index.html">Register</a></li>
+        <li><a href="/Sign in Index.html">Login</a></li>
+        <li><a href="/Contact us index.html">Contact Us</a></li>
+        <li><a href="/Money Tranfer index.html">Money Transfer</a></li>
+      </ul>
+    </header>
+    <h2>Register</h2>
+    <form action="/register" method="post">
+      <label for="First Name">First Name:</label>
+      <input
+        type="text"
+        id="First Name"
+        name="First Name"
+        required
+      /><br /><br />
+      <label for="Last Name">Last Name:</label>
+      <input type="text" id="Last Name" name="Last Name" required /><br /><br />
+      <label for="sex"></label>
+      <input type="radio" id="male" name="sex" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="sex" value="female" required />
+      <label for="female">Female</label><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+      <label for="address">Address:</label>
+      <textarea
+        id="address"
+        name="address"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required /><br /><br />
+
+      <label for="Email">Email:</label>
+      <input type="text" id="Email" name="Email" required /><br /><br />
+      <label for="username"> Choose Username:</label>
+      <input type="text" id="username" name="username" required /><br /><br />
+      <label for="Phone Number">Phone Number:</label>
+      <input
+        type="text"
+        id="Phone number "
+        name="Phone number"
+        required
+      /><br /><br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+      <label for="Confirm password">Confirm Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+      <input type="submit" value="Submit" />
+
+      <a href="/Sign in Index.html">Already have an account? Login here</a>
+    </form>
+  </body>
+</html>

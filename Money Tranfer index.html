@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transfer Money</title>
+</head>
+<body>
+    <header>
+        <H1>Pinewood Bank</H1>
+        <ul>
+            <li><a href="/Landing page index.html">Home</a></li>
+            <li><a href="/Register index.html">Register</a></li>
+            <li><a href="/Sign in Index.html">Login</a></li>
+            <li><a href="/Contact us index.html">Contact Us</a></li>
+            <li><a href="/Money Tranfer index.html">Money Transfer</a></li>
+        </ul>
+    </header>
+    <h2>Transfer Money</h2>
+    <form action="transfer.php" method="post">
+        <label for="from_account">From Account:</label>
+        <input type="text" id="from_account" name="from_account" required><br><br>
+        <label for="to_account">To Account:</label>
+        <input type="text" id="to_account" name="to_account" required><br><br>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" min="0.01" required><br><br>
+        <input type="submit" value="Transfer">
+
+        <Section>
+            <h2>Transaction History</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>From Account</th>
+                        <th>To Account</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                           51275420
+                        </td>
+                        <td>
+                           51905412
+                        </td>
+                        <td>
+                            1000
+                        </td>
+                        <td>
+                            2022-01-01
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                           51275411
+                        </td>
+                        <td>
+                           51105412
+                        </td>
+                        <td>
+                            33000
+                        </td>
+                        <td>
+                            2022-01-02
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                           11275431
+                        </td>
+                        <td>
+                           59198412
+                        </td>
+                        <td>
+                            70000
+                        </td>
+                        <td>
+                            2022-09-02
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                           53275431
+                        </td>
+                        <td>
+                           81198412
+                        </td>
+                        <td>
+                            49000
+                        </td>
+                        <td>
+                            2022-10-02
+                        </td>
+
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </Section>
+        
+</body>
+</html>
